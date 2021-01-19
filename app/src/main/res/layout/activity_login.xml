@@ -57,15 +57,16 @@
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="0dp"
-        app:layout_constraintWidth_percent="0.4"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent="0.07"
-        android:text="@string/log_in"
         android:layout_marginTop="30dp"
         android:backgroundTint="@color/almond"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
+        android:text="@string/log_in"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintHeight_percent="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
+        app:layout_constraintWidth_percent="0.4" />
 
     <Button
         android:id="@+id/buttonSignIn"
