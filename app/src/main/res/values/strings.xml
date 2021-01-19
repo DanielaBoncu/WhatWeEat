@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">WhatWeEat</string>
+    <string name="email">Email</string>
+    <string name="password">Parolă</string>
+    <string name="logo">logo</string>
+    <string name="log_in">Conectează-te</string>
+    <string name="sign_in">Creează cont</string>
+    <string name="no_account">Nu ai cont încă?</string>
+    <string name="last_name">Nume</string>
+    <string name="first_name">Prenume</string>
+    <string name="phone">Număr de telefon</string>
+    <string name="adress">Adresă</string>
+</resources>
