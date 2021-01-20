@@ -10,4 +10,7 @@
     <string name="first_name">Prenume</string>
     <string name="phone">Număr de telefon</string>
     <string name="adress">Adresă</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="what_we_eat">What We Eat</string>
 </resources>
