@@ -12,9 +12,9 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <include
-            layout="@layout/toolbar"/>
+        <include layout="@layout/toolbar" />
     </LinearLayout>
+
     <Button
         android:id="@+id/button_alone"
         android:layout_width="wrap_content"
@@ -41,6 +41,18 @@
         app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_with_whom" />
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="logOut"
+        android:text="Log out"
+        app:layout_constraintTop_toBottomOf="@+id/text_with_whom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="450dp"/>
 
     <TextView
         android:id="@+id/text_with_whom"

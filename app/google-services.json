@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "48546493342",
+    "project_id": "whatweeat-2c0fc",
+    "storage_bucket": "whatweeat-2c0fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48546493342:android:57a728cb1e3c15e5325c8f",
+        "android_client_info": {
+          "package_name": "ro.whatweeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48546493342-maf9qmih2qa3ocheo2pq2eam2cgfg0ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt-DoLQAnSKlkOYeikR3ucOKKO5XDvesw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48546493342-maf9qmih2qa3ocheo2pq2eam2cgfg0ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
