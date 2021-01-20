@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/wwe_icon_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WhatWeEat">
-        <activity android:name=".View.Alone"></activity>
+        <activity android:name=".View.EatOrCook"></activity>
+        <activity android:name=".View.Alone" />
         <activity android:name=".View.Menu" />
         <activity android:name=".View.SignIn" />
         <activity
