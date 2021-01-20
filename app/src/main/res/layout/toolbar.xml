@@ -11,7 +11,8 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_menu"/>
+        android:src="@drawable/ic_menu"
+        android:id="@+id/button_menu"/>
 
     <TextView
         android:layout_width="0dp"

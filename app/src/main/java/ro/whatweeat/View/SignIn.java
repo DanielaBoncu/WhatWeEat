@@ -71,11 +71,6 @@ public class SignIn extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-//                            FirebaseUser user = fAuth.getInstance().getCurrentUser();
-//
-//                            UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
-//                                    .setDisplayName(lastName + "" + firstName).build();
-//                            user.updateProfile(profileUpdates);
                             Toast.makeText(SignIn.this, "Cont creat.", Toast.LENGTH_SHORT).show();
                             Intent goToMenu = new Intent(SignIn.this, Menu.class);
                             startActivity(goToMenu);
